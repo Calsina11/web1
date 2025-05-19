@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevención Suicidio Policial</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 2rem;
+        }
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #28a745;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+        }
+        .highlight {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .contact {
+            background-color: #28a745;
+            color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .poster-image {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prevención Suicidio Policial</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="faq.html">Preguntas Frecuentes</a>
+    </nav>
+    <div class="container">
+        <img src="c:\Users\Usuario\Downloads\edae6e1c-4fd8-47cc-ae8e-921fdba025a3.png" alt="Cartel de Prevención del Suicidio Policial" class="poster-image">
+        <p>Somos una plataforma dedicada a la prevención del suicidio entre agentes de policía. Creemos que cada vida importa y que nadie debe enfrentar esto solo.</p>
+        <p>Nuestra misión es ofrecer apoyo, recursos y una línea <span class="highlight">confidencial</span>. Hablar es el primer paso, y estamos aquí para acompañarte.</p>
+        <p class="contact">Llama al <span class="highlight">900 123 456</span> (gratis y confidencial) o visita nuestra web.</p>
+    </div>
+    <footer>
+        <p>© 2025 Plataforma Catalana para la Prevención del Suicidio Policial</p>
+    </footer>
+</body>
+</html>
